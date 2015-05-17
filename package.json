@@ -1,0 +1,30 @@
+{
+  "name": "HandiApps",
+  "version": "0.1.0",
+  "description": "Description page",
+  "main": "app/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HandiApps/HandiApps.github.io.git"
+  },
+  "keywords": [
+    "HandiApps"
+  ],
+  "author": "José Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HandiApps/HandiApps.github.io/issues"
+  },
+  "homepage": "https://github.com/HandiApps/HandiApps.github.io",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-sass": "^2.0.1",
+    "jquery": "^2.1.4",
+    "semantic-ui-stylus": "^1.8.1"
+  }
+}
