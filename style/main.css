@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   color: #FFFFFF;
-  background-color: #4FBCBC; }
+  background-color: #00b5ad; }
   body .section {
     text-align: center;
     padding-top: 20px; }
@@ -10,11 +10,23 @@ body {
     background-color: #CC333F;
     padding-top: 8%;
     padding-bottom: 8%;
-    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
-    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
-    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); }
+    -moz-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75); }
     body .cover h1 {
       margin-top: -20px;
       padding-top: 0px;
-      color: #4FBCBC;
+      color: #00b5ad;
       font-size: 60pt; }
+  body #nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%; }
+    body #nav .menu {
+      background-color: #CC333F;
+      -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+      -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+      box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); }
+      body #nav .menu.hidden {
+        display: none; }
