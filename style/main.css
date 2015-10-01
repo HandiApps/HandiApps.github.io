@@ -3,6 +3,11 @@ body {
   padding: 0;
   color: #FFFFFF;
   background-color: #00B4CC; }
+  body #main {
+    max-width: 980px;
+    margin: 0 auto; }
+  body a.header:hover {
+    color: #BDBDBD !important; }
   body .section {
     text-align: center;
     width: 80%;
@@ -45,3 +50,5 @@ body {
     color: #00B4CC; }
   body .text.secondary {
     color: #005F6B; }
+  body .personel {
+    text-align: center; }
