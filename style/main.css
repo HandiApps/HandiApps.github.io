@@ -7,7 +7,7 @@ body {
     max-width: 980px;
     margin: 0 auto; }
   body a.header:hover {
-    color: #BDBDBD !important; }
+    color: white !important; }
   body .section {
     text-align: center;
     width: 80%;
@@ -47,8 +47,12 @@ body {
       -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
       box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75); }
   body .text.primary {
-    color: #00B4CC; }
+    color: #047C8C; }
   body .text.secondary {
-    color: #005F6B; }
+    color: #047C8C; }
   body .personel {
     text-align: center; }
+  body .fb-page {
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color: grey; }
