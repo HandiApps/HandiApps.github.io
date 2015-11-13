@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   color: #FFFFFF;
-  background-color: #00B4CC; }
+  background-color: #D6FFBC; }
   body #main {
     max-width: 980px;
     margin: 0 auto; }
@@ -13,24 +13,35 @@ body {
     width: 80%;
     margin: auto;
     margin-bottom: 40px; }
+    body .section#proyectos {
+      margin-bottom: 15px; }
     body .section .content {
-      padding-top: 60px; }
+      padding-top: 15px; }
       body .section .content .segment {
         text-align: left;
-        background-color: #00B4CC; }
+        background-color: white;
+        border-radius: 20px;
+        border: 1px rgba(0, 0, 0, 0.2) solid; }
   body .cover {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #343838; }
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #202B23;
+    height: 280px; }
     body .cover h1 {
       padding-top: 0px;
       font-size: 60pt; }
+    body .cover h2 {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      margin: 0px 0px 0px 0px; }
+    body .cover h3 {
+      margin: 0px 0px 0px 0px; }
     body .cover img {
       height: 300px; }
   body .foot {
     padding-top: 5px;
     padding-bottom: 10px;
-    background-color: #343838;
+    background-color: #202B23;
     text-align: center;
     -moz-box-shadow: 0px -2px 5px 0px rgba(50, 50, 50, 0.75);
     -webkit-box-shadow: 0px -2px 5px 0px rgba(50, 50, 50, 0.75);
@@ -42,17 +53,24 @@ body {
     z-index: 10;
     margin-top: -5px; }
     body #nav .menu {
-      background-color: #343838;
+      background-color: #202B23;
       -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
       -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
       box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75); }
-  body .text.primary {
-    color: #047C8C; }
-  body .text.secondary {
-    color: #047C8C; }
+  body .text.title {
+    color: #2E4E37; }
+  body .text.title-description {
+    color: #2E4E37; }
+  body .text.normal {
+    color: #2E4E37; }
+  body .text.company-title {
+    color: #FFA356; }
   body .personel {
     text-align: center; }
   body .fb-page {
     border-radius: 20px;
     margin-top: 10px;
     border-color: grey; }
+  body .ui.label {
+    color: #FFFFFF;
+    background-color: #243F2E; }
