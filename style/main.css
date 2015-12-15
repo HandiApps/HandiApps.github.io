@@ -1,13 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  color: #FFFFFF;
-  background-color: #D6FFBC; }
+  color: #6A4A3C;
+  background-color: #00A0B0; }
   body #main {
     max-width: 980px;
     margin: 0 auto; }
-  body a.header:hover {
-    color: white !important; }
   body .section {
     text-align: center;
     width: 80%;
@@ -19,13 +17,13 @@ body {
       padding-top: 15px; }
       body .section .content .segment {
         text-align: left;
-        background-color: white;
+        background-color: #ABEEF5;
         border-radius: 20px;
         border: 1px rgba(0, 0, 0, 0.2) solid; }
   body .cover {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #202B23;
+    background-color: #ABEEF5;
     height: 280px; }
     body .cover h1 {
       padding-top: 0px;
@@ -38,10 +36,17 @@ body {
       margin: 0px 0px 0px 0px; }
     body .cover img {
       height: 300px; }
+  body #nosotros .card.personel {
+    background-color: #ABEEF5; }
+    body #nosotros .card.personel a {
+      color: #6A4A3C; }
+    body #nosotros .card.personel .date {
+      min-height: 3em;
+      margin: 10px auto; }
   body .foot {
     padding-top: 5px;
     padding-bottom: 10px;
-    background-color: #202B23;
+    background-color: #ABEEF5;
     text-align: center;
     -moz-box-shadow: 0px -2px 5px 0px rgba(50, 50, 50, 0.75);
     -webkit-box-shadow: 0px -2px 5px 0px rgba(50, 50, 50, 0.75);
@@ -53,18 +58,23 @@ body {
     z-index: 10;
     margin-top: -5px; }
     body #nav .menu {
-      background-color: #202B23;
+      background-color: #ABEEF5;
       -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
       -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
       box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75); }
+      body #nav .menu #navtitle {
+        display: none;
+        color: #CC333F; }
+      body #nav .menu a.item {
+        color: #6A4A3C; }
   body .text.title {
-    color: #2E4E37; }
+    color: #6A4A3C; }
   body .text.title-description {
-    color: #2E4E37; }
+    color: #6A4A3C; }
   body .text.normal {
-    color: #2E4E37; }
+    color: #6A4A3C; }
   body .text.company-title {
-    color: #FFA356; }
+    color: #CC333F; }
   body .personel {
     text-align: center; }
   body .fb-page {
@@ -72,5 +82,5 @@ body {
     margin-top: 10px;
     border-color: grey; }
   body .ui.label {
-    color: #FFFFFF;
-    background-color: #243F2E; }
+    color: #6A4A3C;
+    background-color: #ABEEF5; }
