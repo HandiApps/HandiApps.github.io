@@ -13,6 +13,13 @@ body {
     margin-bottom: 40px; }
     body .section#proyectos {
       margin-bottom: 15px; }
+      body .section#proyectos #moneyscanner {
+        text-align: center; }
+        body .section#proyectos #moneyscanner img {
+          height: 100px;
+          width: 100px; }
+        body .section#proyectos #moneyscanner .video {
+          margin-top: 30px; }
     body .section .content {
       padding-top: 15px; }
       body .section .content .segment {
@@ -43,6 +50,8 @@ body {
     body #nosotros .card.personel .date {
       min-height: 3em;
       margin: 10px auto; }
+  body #nosotros .title-description {
+    color: #ECC85B; }
   body .foot {
     padding-top: 5px;
     padding-bottom: 10px;
@@ -68,7 +77,7 @@ body {
       body #nav .menu a.item {
         color: #6A4A3C; }
   body .text.title {
-    color: #6A4A3C; }
+    color: #ECC85B; }
   body .text.title-description {
     color: #6A4A3C; }
   body .text.normal {
@@ -77,10 +86,6 @@ body {
     color: #CC333F; }
   body .personel {
     text-align: center; }
-  body .fb-page {
-    border-radius: 20px;
-    margin-top: 10px;
-    border-color: grey; }
   body .ui.label {
     color: #6A4A3C;
     background-color: #ABEEF5; }
