@@ -3,10 +3,10 @@ $( document ).ready(function() {
   
   $window.scroll(function() {
       if ( $window.scrollTop() >= distance ) {
-        $('#navtitle').fadeIn();
+        $('.navtitle').fadeIn();
       }
       else {
-        $('#navtitle').fadeOut(200);
+        $('.navtitle').fadeOut(200);
       }
   });
 
