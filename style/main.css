@@ -94,3 +94,7 @@ body {
     body .page.msc .video iframe {
       width: 600px;
       height: 400px; }
+  body .page.msc ul li a {
+    color: inherit; }
+    body .page.msc ul li a:hover {
+      color: #ECC85B; }
